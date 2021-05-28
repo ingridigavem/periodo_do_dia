@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+   
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#background_dia{
+    background-color: rgb(255, 140, 0);
+}
+
+#background_tarde{
+    background-color: rgb(28, 163, 89);
+}
+
+#background_noite{
+    background-color: rgb(22, 22, 189);
+}
+
+#div_msg{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+#div_msg :nth-child(2){
+    
+    font-weight: bold; 
+}
+
+#div_msg p{
+    padding-top: 10px;
+    margin: 0;    
+}
+
+#img_dia, #img_tarde, #img_noite{
+    width: 100%;
+}
+
